@@ -8,7 +8,11 @@ Data is read from [URL](https://2u-data-curriculum-team.s3.amazonaws.com/dataviz
 Dataset is an array with a single element comprised of: <br>
  * names: an array of test subject Ids
  * metadata: array of dictionaries holding demograhic information about the subject
- * samples: array of dictionaries (one per Subject) holding details about the subject (id), bacteria (otu_ids), sample_values for each otu_id and bacteria cultures per sample (otu_labels)
+ * samples: array of dictionaries (one per Subject) holding details about:
+    * id: Subject Id
+    * otu_ids: Ids of bacteria found in culture
+    * sample_values: value of sample taken
+    * otu_labels: names of bacteria found in the culture
 
 ## Dashboard
  * Dropdown loaded with test Subject IDs (defaulted to first subject from drop-down)
