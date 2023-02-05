@@ -18,3 +18,4 @@ Dataset is an array with a single element comprised of: <br>
  * Dropdown loaded with test Subject IDs (defaulted to first subject from drop-down)
  * Horizontal bar chart listing the top 10 sample values with otus (ascending on sample value)
  * Bubble chart with all cultures for the test subject. Bubble size based on sample value and color based on OTU id with color scale to show differnt cultures. 
+ <div><img src="https://github.com/geethakan/belly-button-challenge/blob/main/Images/dashboard.png"</div>
